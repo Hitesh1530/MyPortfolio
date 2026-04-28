@@ -72,7 +72,7 @@ export default function Projects() {
             >
               <div className={`h-48 bg-gradient-to-br ${project.color} relative overflow-hidden flex items-center justify-center`}>
                  <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-20" />
-                 <h3 className="text-5xl md:text-6xl font-black text-white/10 select-none group-hover:scale-110 transition-transform duration-700">{project.title}</h3>
+                 <h3 className="text-4xl md:text-6xl font-black text-white/10 select-none group-hover:scale-110 transition-transform duration-700">{project.title}</h3>
                  <motion.div 
                    className="absolute bottom-4 left-6 right-6 flex flex-wrap gap-2"
                    initial="hidden"

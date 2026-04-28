@@ -51,7 +51,7 @@ export default function Hero() {
             initial={{ scale: 0.9, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-4xl sm:text-5xl md:text-8xl font-black font-outfit mb-4 md:mb-6 tracking-tighter leading-[1.1]"
+            className="text-3xl sm:text-5xl md:text-8xl font-black font-outfit mb-4 md:mb-6 tracking-tighter leading-[1.1] px-4"
           >
             Hi, I'm <span className="text-gradient block sm:inline">Hitesh Hariyar</span>
           </motion.h1>
