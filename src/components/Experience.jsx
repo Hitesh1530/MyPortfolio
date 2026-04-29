@@ -5,7 +5,7 @@ const experiences = [
   {
     company: "Quess Corp Pvt Ltd",
     role: "Software Developer",
-    period: "2024 – Present",
+    period: "Jan 2024 – Present",
     achievements: [
       "Engineered microservices architecture for high-availability systems.",
       "Optimized existing REST APIs, reducing response times by 30%.",
@@ -15,7 +15,7 @@ const experiences = [
   {
     company: "Rigved Technology Pvt Ltd",
     role: "Backend Developer",
-    period: "2022 – 2023",
+    period: "Jan 2022 – Dec 2023",
     achievements: [
       "Designed and implemented secure database schemas in MySQL/MongoDB.",
       "Integrated third-party payment gateways and services securely.",
@@ -41,7 +41,7 @@ export default function Experience() {
         <div className="relative md:border-l md:border-white/10 md:ml-0 md:pl-0">
           {/* Mobile-only center line */}
           <div className="absolute left-[23px] top-0 bottom-0 w-px bg-white/10 md:hidden" />
-          
+
           {experiences.map((exp, idx) => (
             <motion.div
               key={idx}
@@ -55,7 +55,7 @@ export default function Experience() {
               <div className="hidden md:block absolute w-4 h-4 bg-primary rounded-full -left-[9px] top-8 neon-glow border-2 border-background" />
               {/* Mobile dot */}
               <div className="md:hidden absolute w-4 h-4 bg-primary rounded-full left-[16px] top-8 neon-glow border-2 border-background z-10" />
-              
+
               <div className="glass-card p-6 md:p-8 group hover:border-primary/30 transition-all duration-300 hover:shadow-[0_0_30px_rgba(59,130,246,0.1)]">
                 <div className="flex flex-col md:flex-row md:items-center justify-between mb-6 gap-4">
                   <div>
