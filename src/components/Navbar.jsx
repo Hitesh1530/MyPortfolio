@@ -5,8 +5,9 @@ import { Menu, X, Github, Linkedin, Mail } from "lucide-react";
 const navLinks = [
   { name: "About", href: "#about" },
   { name: "Skills", href: "#skills" },
-  { name: "Projects", href: "#projects" },
   { name: "Experience", href: "#experience" },
+  { name: "AI Certifications", href: "#certifications" },
+  { name: "Projects", href: "#projects" },
   { name: "Contact", href: "#contact" },
 ];
 
@@ -33,7 +34,7 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <a href="#" className="text-2xl font-bold font-outfit tracking-tighter text-white group">
-          Hitesh<span className="text-primary transition-colors group-hover:text-accent">.</span>
+          <span className="text-gradient">MyPortfolio</span>
         </a>
 
         {/* Desktop Nav */}

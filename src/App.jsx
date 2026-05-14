@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
+import Certifications from './components/Certifications';
 import Projects from './components/Projects';
 import TechExpertise from './components/TechExpertise';
 import Contact from './components/Contact';
@@ -26,6 +27,7 @@ function App() {
           <TechExpertise />
           <Skills />
           <Experience />
+          <Certifications />
           <Projects />
           <Contact />
         </main>
